@@ -181,6 +181,20 @@ h1 {
   line-height: 25px;
 }
 
+@media screen and (max-width: 1500px) {
+  header {
+    height: 45vh;
+  }
+
+  main {
+    height: 120vh;
+  }
+
+  .person-name {
+    bottom: -60%;
+  }
+}
+
 @media screen and (max-width: 765px) {
   main {
     margin-top: 170px;
