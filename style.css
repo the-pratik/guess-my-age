@@ -181,13 +181,28 @@ h1 {
   line-height: 25px;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1399px) {
   header {
     height: 45vh;
   }
 
   main {
-    height: 120vh;
+    height: 70vh;
+    margin-top: 170px;
+  }
+
+  .person-name {
+    bottom: -60%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  header {
+    height: 45vh;
+  }
+
+  main {
+    margin-top: 170px;
   }
 
   .person-name {
@@ -197,9 +212,12 @@ h1 {
 
 @media screen and (max-width: 765px) {
   main {
-    margin-top: 170px;
     flex-direction: column-reverse;
     justify-content: space-evenly;
+  }
+
+  .person-name {
+    bottom: -32%;
   }
 
   html {
@@ -217,6 +235,6 @@ h1 {
   }
 
   header {
-    height: 50vh;
+    height: 60vh;
   }
 }
