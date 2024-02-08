@@ -37,7 +37,6 @@ main {
 footer {
   width: 100%;
   text-align: center;
-  height: 70px;
   padding: 20px;
   background-color: #333;
 }
@@ -178,9 +177,13 @@ h1 {
   display: none;
 }
 
+.lh {
+  line-height: 25px;
+}
+
 @media screen and (max-width: 765px) {
   main {
-    margin-top: 100px;
+    margin-top: 170px;
     flex-direction: column-reverse;
     justify-content: space-evenly;
   }
@@ -197,5 +200,9 @@ h1 {
 
   .selected {
     top: 12rem;
+  }
+
+  header {
+    height: 50vh;
   }
 }
